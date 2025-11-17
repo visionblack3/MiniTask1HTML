@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>New Employee Form</title>
+</head>
+<body>
+    <h2>New Employee Form</h2>
+    <form>
+        <label for="fullname">Full Name:</label><br />
+        <input type="text" id="fullname"/><br /><br />
+        
+        <label for="email">Email:</label><br />
+        <input type="email" id="emailID"/><br /><br />
+        
+        <label for="age">Age:</label><br />
+        <input type="number" id="age"/><br /><br />
+        
+        <label>Employee Type:</label><br />
+        <input type="radio" id="fulltime" value="Full-time"/>
+        <label for="fulltime">Full-time</label><br />
+        <input type="radio" id="parttime" value="Part-time"/>
+        <label for="parttime">Part-time</label><br /><br />
+        
+        <label>Worker Type</label></br>
+        <input type="checkbox" id="remote"/>
+        <label for="remote">Remote Worker</label><br /><br />
+        
+        <label for="department">Department:</label><br />
+        <select id="department">
+            <option value="hr">HR</option>
+            <option value="it" selected>IT</option>
+            <option value="marketing">Marketing</option>
+        </select><br /><br />
+        
+        <label for="notes">Notes:</label><br />
+        <textarea id="notes" rows="4" cols="30"></textarea><br /><br />
+        
+        <button type="submit">Submit</button>
+
+        <p><mark>HTML & CSS is awesome</mark></p>
+    </form>
+</body>
+</html>
